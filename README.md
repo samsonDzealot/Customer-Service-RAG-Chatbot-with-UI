@@ -93,5 +93,5 @@ Open a Pull Request
 
 ## Screenshots
 
-![Chatbot Interface](chat_interface.png)
-![Example Query](chat_example.png)
+![Chatbot Interface](images/chat_interface.png)
+![Example Query](images/chat_example.png)
