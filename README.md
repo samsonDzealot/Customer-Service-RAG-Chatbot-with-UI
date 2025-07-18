@@ -52,6 +52,7 @@ The app will open at [http://localhost:3000]
 ## Project Sructure
 /src - React frontend components\
 /first_successful_RAG - Python backend with RAG implementation\
+/source_docs - Original documents used for RAG training\
 /chroma_db - ChromaDB vector database\
 /public - Static assets
 
