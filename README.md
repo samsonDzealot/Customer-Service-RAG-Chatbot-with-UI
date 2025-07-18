@@ -1,6 +1,59 @@
-# Running the RAG Chatbot App with Create React App
+# Customer Service RAG Chatbot with UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A customer service chatbot for a restaurant built with React frontend and Python backend using Retrieval-Augmented Generation (RAG) for intelligent responses.
+
+## Features
+
+React-based chat interface \
+Python backend with RAG capabilities \
+ChromaDB for vector storage \
+OpenAI API integration
+
+## Prerequisites
+
+Node.js (v14 or higher)\
+Python 3.7+\
+OpenAI API key\
+
+## Setup Instructions
+### 1. Clone the Repository
+
+git clone https://github.com/samsonDzealot/Customer-Service-RAG-Chatbot-with-UI.git\
+cd Customer-Service-RAG-Chatbot-with-UI
+
+### 2. Frontend Setup
+
+npm install
+
+### 3. Backend Setup
+
+pip install -r requirements.txt 
+
+### 4. Environment Configuration
+
+Create a .env file in the first_successful_RAG directory:\
+OPENAI_API_KEY=your_openai_api_key_here\
+\
+Make sure to never commit your .env file to version control!!!
+
+### 5. Run the Application
+
+Start the backend:\
+python chatbot_api.py\
+\
+Start the frontend:\
+npm start\
+\
+Note that you must run the the backend and frontend simultaneously in separate terminal interfaces\
+You must also have navigated to the project's directory within each terminal before executing these commands\
+\
+The app will open at [http://localhost:3000]
+
+## Project Sructure
+/src - React frontend components\
+/first_successful_RAG - Python backend with RAG implementation\
+/chroma_db - ChromaDB vector database\
+/public - Static assets
 
 ## Available Scripts
 
@@ -8,41 +61,33 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Runs the app in the development mode at [http://localhost:3000]
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in the interactive watch mode
 
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Fork the repository\
+Create your feature branch (`git checkout -b feature/AmazingFeature`)\
+Commit your changes (`git commit -m 'Add some AmazingFeature`)\
+Push to the branch (`git push origin feature/AmazingFeature`)]\
+Open a Pull Request
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Learn More
 
-## Learn More
+[Create React App documentation]\
+[OpenAI API documentation]\
+[ChromaDB documentation]
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
