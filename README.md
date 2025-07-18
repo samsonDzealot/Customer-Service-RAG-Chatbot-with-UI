@@ -49,7 +49,7 @@ You must also have navigated to the project's directory within each terminal bef
 \
 The app will open at [http://localhost:3000]
 
-## Project Sructure
+## Project Structure
 /src - React frontend components\
 /first_successful_RAG - Python backend with RAG implementation\
 /source_docs - Original documents used for RAG training\
@@ -87,8 +87,11 @@ Open a Pull Request
 
 ### Learn More
 
-[Create React App documentation]\
-[OpenAI API documentation]\
+[Create React App documentation]
+[OpenAI API documentation]
 [ChromaDB documentation]
 
+## Screenshots
 
+![Chatbot Interface](chat_interface.png)
+![Example Query](chat_example.png)
