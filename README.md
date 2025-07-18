@@ -13,7 +13,7 @@ OpenAI API integration
 
 Node.js (v14 or higher)\
 Python 3.7+\
-OpenAI API key\
+OpenAI API key
 
 ## Setup Instructions
 ### 1. Clone the Repository
